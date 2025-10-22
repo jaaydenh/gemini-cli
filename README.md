@@ -2,7 +2,7 @@
 
 This is a fork of the [Gemini CLI](https://github.com/google-gemini/gemini-cli) repository. It exposes the TUI components to be used in other projects.
 
-In order to publish the `@hugodutka/gemini-cli-core` and `@hugodutka/gemini-cli` packages, run the following commands:
+In order to publish the `@jaaydenh/gemini-cli-core` and `@jaaydenh/gemini-cli` packages, run the following commands:
 
 ```bash
 npm ci

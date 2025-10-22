@@ -24,3 +24,5 @@ export { theme } from './ui/semantic-colors.js';
 export { SuggestionsDisplay } from './ui/components/SuggestionsDisplay.js';
 
 export { Config } from '@google/gemini-cli-core';
+
+export { useBracketedPaste } from './ui/hooks/useBracketedPaste.js';

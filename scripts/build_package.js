@@ -35,7 +35,7 @@ execSync('node ../../scripts/copy_files.js', { stdio: 'inherit' });
 // touch dist/.last_build
 writeFileSync(join(process.cwd(), 'dist', '.last_build'), '');
 
-// because of the @hugodutka aliases we manually fix up the dependency path
+// because of the @jaaydenh aliases we manually fix up the dependency path
 // for the gemini-cli-core package that gemini-cli depends on
 if (process.cwd().endsWith('cli')) {
   const currentCoreVersion = JSON.parse(
@@ -47,7 +47,7 @@ if (process.cwd().endsWith('cli')) {
   );
   const parsedContent = JSON.parse(packageJsonContent);
   parsedContent.dependencies['@google/gemini-cli-core'] =
-    `npm:@hugodutka/gemini-cli-core@${currentCoreVersion}`;
+    `npm:@jaaydenh/gemini-cli-core@${currentCoreVersion}`;
   writeFileSync(
     join(process.cwd(), 'dist/package.json'),
     JSON.stringify(parsedContent, null, 2),

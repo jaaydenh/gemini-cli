@@ -1,10 +1,10 @@
 {
-  "name": "@hugodutka/gemini-cli-core",
-  "version": "0.6.0-nightly-20250912-5",
+  "name": "@jaaydenh/gemini-cli-core",
+  "version": "0.11.0-nightly-20251022-1",
   "description": "Gemini CLI Core",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hugodutka/gemini-cli.git"
+    "url": "git+https://github.com/jaaydenh/gemini-cli.git"
   },
   "type": "module",
   "main": "dist/index.js",
